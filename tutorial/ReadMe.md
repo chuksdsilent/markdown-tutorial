@@ -1,5 +1,7 @@
 
-# Header
+# Basics of Markdown
+
+## Header
 There are diferent header lever starting from 1 to 6
 # Header 1
 ## Header 2
@@ -95,3 +97,27 @@ To create a nested item you use tab
     For example
 
     ![Markdown Image](https://imagepath.png)
+
+    The above is the basics of markdown. Github has it's own added markdon flavour which will be looking at next
+
+    ## Code Blocks
+
+    This is basically for hightlighting code if you want to insert code into mark down. To insert a code block you can use three backtics
+
+    For example
+
+    ```
+    npm install
+    npm start
+    ```
+
+    or 
+
+    you can specify the language
+
+    ```javacript
+        function add(num1, num2){
+            return num1 + num1
+        }
+    ```
+
