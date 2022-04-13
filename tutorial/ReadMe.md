@@ -81,3 +81,17 @@ To create a nested item you use tab
     1. Item 1
     2. Item 2
     3. Item 3
+
+    
+    ## Inline code block
+
+    To create inline code block you can use backticks
+
+    `<p> This is an inline code`
+
+    ## Images
+    To create an image you can use square bracket[] and parenthesis just like link but in this case the link to the image goes inside the parenthesis while the alt goes inside the square bracket
+
+    For example
+
+    ![Markdown Image](https://imagepath.png)
