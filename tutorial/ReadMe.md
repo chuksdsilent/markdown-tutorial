@@ -3,6 +3,16 @@
 
 ## Header
 There are diferent header level starting from 1 to 6 just like HTML
+
+* \# Header 1
+
+* \## Header 2
+* \### Header 3
+* \#### Header 4
+* \##### Header 5
+* \###### Header 6
+### Output
+
 # Header 1
 ## Header 2
 ### Header 3
