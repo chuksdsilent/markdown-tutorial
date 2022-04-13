@@ -128,10 +128,10 @@ To create an image you can use square bracket[] and parenthesis just like link b
 
 For example
 
-\!\[Markdown Image](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+\!\[Github Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 ### Output
 
-![Github Image](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
+![Github Logo](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
 The above is the basics of markdown. Github has it's own added markdown flavour which we will be looking at next.
 
