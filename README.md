@@ -23,7 +23,8 @@ You can use any text editor to write markdown such as
 * VSCODE
 * Atom
 * Notepad++
+* etc
 
 _Note_
 
-When using VSCODE there is an extension called Auto-Open markdown preveview which you can use to preview the output on VSCODE without uploading to github.
+When using VSCODE there is an extension called Auto-Open markdown preview which you can use to preview the output on VSCODE without uploading to github.
