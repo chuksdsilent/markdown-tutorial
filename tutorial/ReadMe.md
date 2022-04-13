@@ -78,46 +78,88 @@ To create a nested item you use tab
 
     ## Ordered List
 
-    To create an ordered list you can use numbers
+To create an ordered list you can use numbers
 
-    1. Item 1
-    2. Item 2
-    3. Item 3
+1. Item 1
+2. Item 2
+3. Item 3
 
-    
-    ## Inline code block
 
-    To create inline code block you can use backticks
+## Inline code block
 
-    `<p> This is an inline code`
+To create inline code block you can use backticks
 
-    ## Images
-    To create an image you can use square bracket[] and parenthesis just like link but in this case the link to the image goes inside the parenthesis while the alt goes inside the square bracket
+`<p> This is an inline code`
 
-    For example
+## Images
+To create an image you can use square bracket[] and parenthesis just like link but in this case the link to the image goes inside the parenthesis while the alt goes inside the square bracket
 
-    ![Markdown Image](https://imagepath.png)
+For example
 
-    The above is the basics of markdown. Github has it's own added markdon flavour which will be looking at next
+![Markdown Image](https://imagepath.png)
 
-    ## Code Blocks
+The above is the basics of markdown. Github has it's own added markdon flavour which will be looking at next
 
-    This is basically for hightlighting code if you want to insert code into mark down. To insert a code block you can use three backtics
+## Code Blocks
 
-    For example
+This is basically for hightlighting code if you want to insert code into mark down. To insert a code block you can use three backtics
 
-    ```
-    npm install
-    npm start
-    ```
+For example
 
-    or 
+\```
+npm install
+npm start
+\```
 
-    you can specify the language
+### Output
+```
+npm install
+npm start
+```
 
-    ```javacript
-        function add(num1, num2){
-            return num1 + num1
-        }
-    ```
+or 
 
+you can specify the language
+
+\```javacript
+
+    function add(num1, num2){
+
+        return num1 + num1
+    }
+\```
+
+### Output
+```javacript
+    function add(num1, num2){
+        return num1 + num1
+    }
+```
+
+## Table
+
+To create a table you use pipe and underscore together
+
+For example
+
+| Name |  Position |
+|-------|----------|
+| Okoye Ifeoma | UI/UX |
+| Nwafor Emeka | Software Engineer |
+
+## Task List
+
+This is used if you want to create checkbox.
+
+For example
+
+\* [*] Task 1
+
+\* [*] Task 2
+
+\* [] Task 3
+
+### Output
+* [*] Task 1
+* [*] Task 2
+* [] Task 3
