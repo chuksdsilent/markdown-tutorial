@@ -2,7 +2,7 @@
 # Basics of Markdown
 
 ## Header
-There are diferent header lever starting from 1 to 6
+There are diferent header level starting from 1 to 6 just like HTML
 # Header 1
 ## Header 2
 ### Header 3
@@ -36,7 +36,7 @@ To make your text strong you can use double asterics(**) or double underscore(__
 
 or
 
-\__This paragraph__ is 
+\__This paragraph__ is Strong
 
 ### Output
 **This paragraph** is Strong
@@ -50,6 +50,7 @@ __This paragraph__ is
 To create a horizontal line which most often used as a seperator. you use either triple hyphen(---) or triple  underscore(___)
 
 for example
+
 \___
 
 \---
@@ -97,20 +98,6 @@ For example
 * Item 2
 
 * Item 3
-
-To create a nested item you use tab
-
-\* item 4
-
-    \* Nested item 1
-
-    \* Nested item 2
-### Output
-
-* item 4
-    * Nested item 1
-    * Nested item 2
-
 ## Ordered List
 
 To create an ordered list you can use numbers
@@ -125,30 +112,22 @@ To create an ordered list you can use numbers
 3. Item 3
 
 
-## Inline code block
-
-To create inline code block you can use backticks
-
-\`<p> This is an inline code </p>`
-### Output
-
-`<p> This is an inline code </p>`
 
 ## Images
 To create an image you can use square bracket[] and parenthesis just like link but in this case the link to the image goes inside the parenthesis while the alt goes inside the square bracket
 
 For example
 
-![Markdown Image](https://imagepath.png)
+\!\[Markdown Image](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 ### Output
 
-![Markdown Image](https://imagepath.png)
+![Github Image](https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png)
 
-The above is the basics of markdown. Github has it's own added markdon flavour which will be looking at next
+The above is the basics of markdown. Github has it's own added markdown flavour which we will be looking at next.
 
-## Code Blocks
+## Inserting Code Snippets
 
-This is basically for hightlighting code if you want to insert code into mark down. To insert a code block you can use three backtics
+This is basically for hightlighting code if you want to insert code into mark down. To insert a code block you can use triple backtics
 
 For example
 
@@ -167,38 +146,19 @@ or
 
 you can specify the language
 
-\```javacript
+\```javascript
 
     function add(num1, num2){
-
         return num1 + num1
     }
 \```
 
 ### Output
-```javacript
-    function add(num1, num2){
-        return num1 + num1
-    }
+```javascript
+function add(num1, num2){
+    return num1 + num1
+}
 ```
-
-## Table
-
-To create a table you use pipe and underscore together
-
-For example
-
-\| Name |  Position |
-\|-------|----------|
-\| Okoye Ifeoma | UI/UX |
-\| Nwafor Emeka | Software Engineer |
-\| Name |  Position |
-### Output
-
-|-------|----------|
-| Okoye Ifeoma | UI/UX |
-| Nwafor Emeka | Software Engineer |
-
 ## Task List
 
 This is used if you want to create checkbox.
