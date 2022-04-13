@@ -73,3 +73,11 @@ To create a nested item you use tab
     \* Nested item 1
 
     \* Nested item 2
+
+    ## Ordered List
+
+    To create an ordered list you can use numbers
+
+    1. Item 1
+    2. Item 2
+    3. Item 3
