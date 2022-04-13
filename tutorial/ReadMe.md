@@ -10,11 +10,18 @@ There are diferent header lever starting from 1 to 6
 ##### Header 5
 ###### Header 6
 
-# Italics
-To style your text with italics you can use either double asterics(*) or underscore(_)
+## Italics
+To style your text with italics you can use either single asterics(*) or underscore(_) before and after the word(s) or paragraph
 
 For example
 
+\*This paragraph* is Italics
+
+or
+
+\_This paragraph_ is Italics
+
+### Output
 *This paragraph* is Italics
 
 or
@@ -23,31 +30,44 @@ _This paragraph_ is Italics
 
 ## Strong
 
-To make your text strong you can use double asterics(**) or double underscore(__)
+To make your text strong you can use double asterics(**) or double underscore(__) before and after the word(s) or paragraph
 
+\**This paragraph** is Strong
+
+or
+
+\__This paragraph__ is 
+
+### Output
 **This paragraph** is Strong
 
 or
 
 __This paragraph__ is 
 
-# Horizontal Line
+## Horizontal Line
 
 To create a horizontal line which most often used as a seperator. you use either triple hyphen(---) or triple  underscore(___)
 
 for example
+\___
+
+\---
+### Output
 ___
 
 ---
 
-# Blockquote
+## Blockquote
 
 To create a quote you can use greater than sign(>).
 
 For example
 
-> The is a quote
+\> The is a quote
+### Output
 
+> The is a quote
 ## Link
 
 To create a link you use square bracket[] and parenthesis(). The link label will be inside the square bracket while the link will be inside the parenthesis
@@ -55,6 +75,9 @@ To create a link you use square bracket[] and parenthesis(). The link label will
 For Example
 
 \[oshabz.dev](https://oshabz.dev)
+### Output
+
+[oshabz.dev](https://oshabz.dev)
 
 ## Unordered List
 
@@ -67,6 +90,13 @@ For example
 \* Item 2
 
 \* Item 3
+### Output
+
+* Item 1
+
+* Item 2
+
+* Item 3
 
 To create a nested item you use tab
 
@@ -75,10 +105,20 @@ To create a nested item you use tab
     \* Nested item 1
 
     \* Nested item 2
+### Output
 
-    ## Ordered List
+* item 4
+    * Nested item 1
+    * Nested item 2
+
+## Ordered List
 
 To create an ordered list you can use numbers
+
+1. Item 1
+2. Item 2
+3. Item 3
+### Output
 
 1. Item 1
 2. Item 2
@@ -89,12 +129,18 @@ To create an ordered list you can use numbers
 
 To create inline code block you can use backticks
 
-`<p> This is an inline code`
+\`<p> This is an inline code </p>`
+### Output
+
+`<p> This is an inline code </p>`
 
 ## Images
 To create an image you can use square bracket[] and parenthesis just like link but in this case the link to the image goes inside the parenthesis while the alt goes inside the square bracket
 
 For example
+
+![Markdown Image](https://imagepath.png)
+### Output
 
 ![Markdown Image](https://imagepath.png)
 
@@ -142,7 +188,13 @@ To create a table you use pipe and underscore together
 
 For example
 
-| Name |  Position |
+\| Name |  Position |
+\|-------|----------|
+\| Okoye Ifeoma | UI/UX |
+\| Nwafor Emeka | Software Engineer |
+\| Name |  Position |
+### Output
+
 |-------|----------|
 | Okoye Ifeoma | UI/UX |
 | Nwafor Emeka | Software Engineer |
